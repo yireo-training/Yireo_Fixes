@@ -1,0 +1,20 @@
+{
+  "name": "yireo/magento2-fixes",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "GNU General Public License (GPL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Yireo\\Fixes\\": ""
+    }
+  }
+}
