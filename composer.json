@@ -1,20 +1,21 @@
 {
-  "name": "yireo/magento2-fixes",
-  "version": "1.0.0",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "*"
-  },
-  "license": [
-    "GNU General Public License (GPL)"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "yireo/magento2-fixes",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "^101.0|^102.0|^103.0",
+        "php": ">=7.3.0"
+    },
+    "license": [
+        "GNU General Public License (GPL)"
     ],
-    "psr-4": {
-      "Yireo\\Fixes\\": ""
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yireo\\Fixes\\": ""
+        }
     }
-  }
 }
